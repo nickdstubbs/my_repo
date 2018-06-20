@@ -11,12 +11,12 @@
   </welcome-file-list>
   <servlet>
     <description></description>
-    <display-name>Servlet</display-name>
-    <servlet-name>Servlet</servlet-name>
-    <servlet-class>com.revature.jenkins.sevlet.Servlet</servlet-class>
+    <display-name>TestServlet</display-name>
+    <servlet-name>TestServlet</servlet-name>
+    <servlet-class>com.revature.jenkins.servlet.TestServlet</servlet-class>
   </servlet>
   <servlet-mapping>
-    <servlet-name>Servlet</servlet-name>
+    <servlet-name>TestServlet</servlet-name>
     <url-pattern>/Servlet</url-pattern>
   </servlet-mapping>
 </web-app>

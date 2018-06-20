@@ -1,4 +1,4 @@
-package com.revature.jenkins.sevlet;
+package com.revature.jenkins.servlet;
 
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -11,13 +11,13 @@ import javax.servlet.http.HttpServletResponse;
 /**
  * Servlet implementation class Servlet
  */
-public class Servlet extends HttpServlet {
+public class TestServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 
     /**
      * Default constructor. 
      */
-    public Servlet() {
+    public TestServlet() {
         // TODO Auto-generated constructor stub
     }
 
